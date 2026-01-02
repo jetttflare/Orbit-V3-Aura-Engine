@@ -86,7 +86,7 @@ build_simulator() {
         -project "${PROJECT_DIR}/${PROJECT_NAME}.xcodeproj" \
         -scheme "${SCHEME}" \
         -configuration Debug \
-        -destination 'platform=iOS Simulator,name=iPhone 15 Pro' \
+        -destination 'platform=iOS Simulator,name=iPhone 17 Pro' \
         2>&1 | tee "${LOG_DIR}/build_simulator.log"
     
     if [ $? -eq 0 ]; then
@@ -202,7 +202,7 @@ run_tests() {
     xcodebuild test \
         -project "${PROJECT_DIR}/${PROJECT_NAME}.xcodeproj" \
         -scheme "${SCHEME}" \
-        -destination 'platform=iOS Simulator,name=iPhone 15 Pro' \
+        -destination 'platform=iOS Simulator,name=iPhone 17 Pro' \
         2>&1 | tee "${LOG_DIR}/test.log"
     
     if [ $? -eq 0 ]; then
