@@ -1,0 +1,53 @@
+{
+    "endeavor_id": 2,
+    "name": "Lil Bit Podcast Factory",
+    "tagline": "Family AI Podcasts with Dad, Mom & Lil Bit",
+    "version": "1.0.0",
+    "pricing": {
+        "custom_topic": 29.98,
+        "subscription_monthly": 49,
+        "holiday_pack": 19.99
+    },
+    "tech_stack": {
+        "backend": "Flask/Python",
+        "ai": "Gemini Flash 2.0",
+        "tts": "ElevenLabs (3 voices)",
+        "database": "Supabase",
+        "payments": "Stripe"
+    },
+    "features": {
+        "family_safe_filter": true,
+        "quality_gate_threshold": 70,
+        "multi_persona_voices": [
+            "Dad",
+            "Mom",
+            "LilBit"
+        ],
+        "auto_clip_generation": true,
+        "multi_platform_publish": true
+    },
+    "content_policy": {
+        "blocked": [
+            "politics",
+            "religion_debates",
+            "controversial"
+        ],
+        "allowed_holiday_religious": [
+            "christmas",
+            "hanukkah",
+            "easter",
+            "thanksgiving"
+        ]
+    },
+    "simulation_results": {
+        "sessions_run": 1000,
+        "success_rate": 0.91,
+        "avg_quality_score": 78.4,
+        "family_safe_compliance": 0.99,
+        "gaps_identified": [
+            "Voice cloning consent workflow needed",
+            "Holiday pack seasonal scheduling",
+            "Multi-language support for Spanish families"
+        ]
+    }
+}

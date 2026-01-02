@@ -1,0 +1,30 @@
+{
+    "endeavor_id": 11,
+    "name": "AI Resume Optimizer",
+    "tagline": "ATS-Proof Resumes in Seconds",
+    "version": "1.0.0",
+    "market": {
+        "size": "$2B",
+        "monthly_searches": "40M",
+        "ats_rejection_rate": "75%"
+    },
+    "pricing": {
+        "basic": 19,
+        "premium": 49,
+        "referral_credit": 5
+    },
+    "features": {
+        "ats_keyword_analysis": true,
+        "score_comparison": true,
+        "cover_letter_generation": true,
+        "pdf_export": true,
+        "referral_system": true,
+        "linkedin_import": "planned"
+    },
+    "simulation_results": {
+        "sessions_run": 1000,
+        "avg_score_improvement": 28,
+        "conversion_rate": 0.12,
+        "viral_coefficient": 1.3
+    }
+}

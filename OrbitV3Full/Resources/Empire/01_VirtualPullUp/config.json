@@ -1,0 +1,52 @@
+{
+    "endeavor_id": 1,
+    "name": "Virtual Pull-Up AI",
+    "tagline": "Jamie-Style Fact Engine for Podcasters",
+    "version": "1.0.0",
+    "pricing": {
+        "monthly": 29,
+        "overage_per_hour": 5,
+        "trial_days": 7
+    },
+    "tech_stack": {
+        "backend": "Flask/Python",
+        "ai_primary": "Gemini Flash 2.0",
+        "ai_fallback": [
+            "Grok Free",
+            "Local"
+        ],
+        "tts": "ElevenLabs + Piper",
+        "database": "Supabase",
+        "payments": "Stripe"
+    },
+    "endpoints": {
+        "home": "/",
+        "check_claim": "/api/check",
+        "research": "/api/research",
+        "session_start": "/api/session/start",
+        "session_end": "/api/session/end",
+        "tts": "/api/tts",
+        "checkout": "/api/checkout",
+        "metrics": "/api/metrics",
+        "health": "/health"
+    },
+    "features": {
+        "proactive_research": true,
+        "voice_overlays": true,
+        "mem0_caching": true,
+        "empire_dashboard": true,
+        "stripe_billing": true
+    },
+    "simulation_results": {
+        "sessions_run": 1000,
+        "success_rate": 0.94,
+        "avg_response_time_ms": 1250,
+        "cache_hit_rate": 0.38,
+        "tts_success_rate": 0.87,
+        "gaps_identified": [
+            "Need voice cloning setup for custom Jamie voice",
+            "Rogan DM feature requires X API access",
+            "Image/meme generation needs Flux.1 integration"
+        ]
+    }
+}

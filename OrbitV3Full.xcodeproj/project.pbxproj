@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F001 /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = S001; };
+		F002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = S002; };
+		F003 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = S003; };
+		F004 /* JarvisIronManApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = S004; };
+		F005 /* AuraBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = S005; };
+		F006 /* JarvisCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = S006; };
+		F021 /* MessageComposerModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = S021; };
+		F022 /* DashboardConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = S022; };
+		F023 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = S023; };
+		F024 /* BackendService.swift in Sources */ = {isa = PBXBuildFile; fileRef = S024; };
+		F025 /* ProjectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = S025; };
+		F026 /* SupabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = S026; };
+		F027 /* PlatformOptimizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = S027; };
+		F028 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = S028; };
+		F029 /* AzureHubControlPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = S029; };
+		F030 /* AzureUploadPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = S030; };
+		F031 /* CustomizableDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = S031; };
+		F032 /* CyberWarfarePanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = S032; };
+		F033 /* DevicePanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = S033; };
+		F034 /* DraggableWidgetContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = S034; };
+		F035 /* FileBrowserPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = S035; };
+		F036 /* GlassPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = S036; };
+		F037 /* MainDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = S037; };
+		F038 /* OrbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = S038; };
+		F039 /* ProjectPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = S039; };
+		F040 /* QuadrantMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = S040; };
+		F041 /* SystemStatsPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = S041; };
+		F042 /* VoiceVisualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = S042; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		S001 /* iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSApp.swift; sourceTree = "<group>"; };
+		S002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		S003 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		S004 /* JarvisIronManApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JarvisIronManApp.swift; sourceTree = "<group>"; };
+		S005 /* AuraBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuraBridge.swift; sourceTree = "<group>"; };
+		S006 /* JarvisCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JarvisCore.swift; sourceTree = "<group>"; };
+		S021 /* MessageComposerModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageComposerModule.swift; sourceTree = "<group>"; };
+		S022 /* DashboardConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardConfig.swift; sourceTree = "<group>"; };
+		S023 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		S024 /* BackendService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendService.swift; sourceTree = "<group>"; };
+		S025 /* ProjectManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectManager.swift; sourceTree = "<group>"; };
+		S026 /* SupabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseService.swift; sourceTree = "<group>"; };
+		S027 /* PlatformOptimizations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformOptimizations.swift; sourceTree = "<group>"; };
+		S028 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		S029 /* AzureHubControlPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzureHubControlPanel.swift; sourceTree = "<group>"; };
+		S030 /* AzureUploadPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzureUploadPanel.swift; sourceTree = "<group>"; };
+		S031 /* CustomizableDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizableDashboard.swift; sourceTree = "<group>"; };
+		S032 /* CyberWarfarePanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyberWarfarePanel.swift; sourceTree = "<group>"; };
+		S033 /* DevicePanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicePanel.swift; sourceTree = "<group>"; };
+		S034 /* DraggableWidgetContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableWidgetContainer.swift; sourceTree = "<group>"; };
+		S035 /* FileBrowserPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileBrowserPanel.swift; sourceTree = "<group>"; };
+		S036 /* GlassPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassPanelView.swift; sourceTree = "<group>"; };
+		S037 /* MainDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDashboard.swift; sourceTree = "<group>"; };
+		S038 /* OrbView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrbView.swift; sourceTree = "<group>"; };
+		S039 /* ProjectPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectPanel.swift; sourceTree = "<group>"; };
+		S040 /* QuadrantMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadrantMenuView.swift; sourceTree = "<group>"; };
+		S041 /* SystemStatsPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemStatsPanel.swift; sourceTree = "<group>"; };
+		S042 /* VoiceVisualizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceVisualizer.swift; sourceTree = "<group>"; };
+		PROD /* OrbitV3Full.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrbitV3Full.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FWPH /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ROOT = {
+			isa = PBXGroup;
+			children = (
+				MAIN /* OrbitV3Full */,
+				PRODS /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		PRODS /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				PROD /* OrbitV3Full.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		MAIN /* OrbitV3Full */ = {
+			isa = PBXGroup;
+			children = (
+				GAPP /* App */,
+				GCORE /* Core */,
+				GINT /* Integrations */,
+				GMOD /* Models */,
+				GSERV /* Services */,
+				GUTIL /* Utilities */,
+				GVIEWS /* Views */,
+				GIOS /* iOS */,
+			);
+			path = OrbitV3Full;
+			sourceTree = "<group>";
+		};
+		GAPP /* App */ = {
+			isa = PBXGroup;
+			children = (
+				S002 /* AppDelegate.swift */,
+				S003 /* ContentView.swift */,
+				S004 /* JarvisIronManApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		GCORE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				S005 /* AuraBridge.swift */,
+				S006 /* JarvisCore.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		GINT /* Integrations */ = {
+			isa = PBXGroup;
+			children = (
+				S021 /* MessageComposerModule.swift */,
+			);
+			path = Integrations;
+			sourceTree = "<group>";
+		};
+		GMOD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				S022 /* DashboardConfig.swift */,
+				S023 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		GSERV /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				S024 /* BackendService.swift */,
+				S025 /* ProjectManager.swift */,
+				S026 /* SupabaseService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		GUTIL /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				S027 /* PlatformOptimizations.swift */,
+				S028 /* Theme.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		GVIEWS /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				S029 /* AzureHubControlPanel.swift */,
+				S030 /* AzureUploadPanel.swift */,
+				S031 /* CustomizableDashboard.swift */,
+				S032 /* CyberWarfarePanel.swift */,
+				S033 /* DevicePanel.swift */,
+				S034 /* DraggableWidgetContainer.swift */,
+				S035 /* FileBrowserPanel.swift */,
+				S036 /* GlassPanelView.swift */,
+				S037 /* MainDashboard.swift */,
+				S038 /* OrbView.swift */,
+				S039 /* ProjectPanel.swift */,
+				S040 /* QuadrantMenuView.swift */,
+				S041 /* SystemStatsPanel.swift */,
+				S042 /* VoiceVisualizer.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		GIOS /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				S001 /* iOSApp.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		TARG /* OrbitV3Full */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCLT /* Build configuration list for PBXNativeTarget "OrbitV3Full" */;
+			buildPhases = (
+				SRCP /* Sources */,
+				FWPH /* Frameworks */,
+				RESP /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrbitV3Full;
+			productName = OrbitV3Full;
+			productReference = PROD /* OrbitV3Full.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		PROJ /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					TARG = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = BCLP /* Build configuration list for PBXProject "OrbitV3Full" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ROOT;
+			productRefGroup = PRODS /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				TARG /* OrbitV3Full */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		RESP /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		SRCP /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F001,
+				F002,
+				F003,
+				F004,
+				F005,
+				F006,
+				F021,
+				F022,
+				F023,
+				F024,
+				F025,
+				F026,
+				F027,
+				F028,
+				F029,
+				F030,
+				F031,
+				F032,
+				F033,
+				F034,
+				F035,
+				F036,
+				F037,
+				F038,
+				F039,
+				F040,
+				F041,
+				F042,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CFGD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFGR /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFGTD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5DTUQN5C5R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.antigravity.orbitv3full;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFGTR /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5DTUQN5C5R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.antigravity.orbitv3full;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCLT /* Build configuration list for PBXNativeTarget "OrbitV3Full" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFGTD /* Debug */,
+				CFGTR /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCLP /* Build configuration list for PBXProject "OrbitV3Full" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFGD /* Debug */,
+				CFGR /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = PROJ /* Project object */;
+}
